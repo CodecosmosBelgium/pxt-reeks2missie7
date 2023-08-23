@@ -38,4 +38,19 @@ namespace Codecosmos {
     export function setup_1(): void{
         agent.teleport(world(224, 74, 43), EAST)
     }
+
+    //% block="Zet klaar (2)"
+    export function setup_2(): void {
+        agent.teleport(world(224, 74, 36), EAST)
+    }
+
+    //% block="Zet klaar (3)"
+    export function setup_3(): void {
+        agent.teleport(world(224, 74, 29), EAST)
+    }
+
+    //% block="Zet klaar (extra)"
+    export function setup_extra(): void {
+        agent.teleport(world(234, 71, 10), NORTH)
+    }
 }

@@ -1,4 +1,5 @@
 player.onChat("run", function () {
+    Codecosmos.setup_1()
     if (Codecosmos.next_to_water()) {
     	
     }
