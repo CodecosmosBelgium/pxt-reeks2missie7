@@ -1,6 +1,6 @@
 ### @hideIteration true
 ### @flyoutOnly true
-# Mission 1
+# Mission 2
 ```blocks
 player.onChat("oef2", function () {
     Codecosmos.setup_2()
