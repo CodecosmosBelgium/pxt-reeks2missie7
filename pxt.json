@@ -10,7 +10,11 @@
         "main.ts",
         "README.md",
         "custom.ts",
-        "t_level1.md"
+        "t_level1.md",
+        "t_level2.md",
+        "t_level3.md",
+        "t_levelExtra.md",
+        "t_no_exercise.md"
     ],
     "testFiles": [
         "test.ts"
