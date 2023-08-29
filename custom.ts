@@ -12,7 +12,7 @@ namespace Codecosmos {
 
     //% block="is water naast agent"
     export function next_to_water() : boolean{
-        return blocks.testForBlock(WATER, agent.getPosition().add(world(0, 0, 1))) || blocks.testForBlock(WATER, agent.getPosition().add(world(0, 0, -1)))
+        return blocks.testForBlock(WATER, agent.getPosition().add(pos(0, 0, 1))) || blocks.testForBlock(WATER, agent.getPosition().add(pos(0, 0, -1)))
     }
 
     //% block="is dichtbij vuur"
