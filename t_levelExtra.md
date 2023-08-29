@@ -21,6 +21,7 @@ player.onChat("oef3", function () {
 
 ```template
 player.onChat("oefExtra", function () {
+Codecosmos.setup_extra()
  for (let index = 0; index < 21; index++) {
       
 }
