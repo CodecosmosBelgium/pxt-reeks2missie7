@@ -6,8 +6,8 @@ player.onChat("oef3", function () {
     Codecosmos.setup_3()
     for (let index = 0; index < 4; index++) {
         agent.move(FORWARD, 1)
-        if (!(Codecosmos.is_close_to_fire())) {
-             Codecosmos.place_tree()
+        if (Codecosmos.test_for_block_under_agent(GRASS) && !(Codecosmos.is_close_to_fire())) {
+            Codecosmos.place_tree()
         }
     }
 })
