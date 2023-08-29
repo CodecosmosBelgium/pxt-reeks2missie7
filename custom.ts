@@ -36,21 +36,31 @@ namespace Codecosmos {
 
     //% block="Zet klaar (1)"
     export function setup_1(): void{
+        ///fill 225 74 43 244 74 43 air
         agent.teleport(world(224, 74, 43), EAST)
+        blocks.fill(AIR, world(225,74,43), world(244, 74, 43), FillOperation.Replace)
     }
 
     //% block="Zet klaar (2)"
     export function setup_2(): void {
+        ///fill 244 74 36 225 74 36 AIR
+        blocks.fill(AIR, world(244, 74, 36), world(225, 74, 36), FillOperation.Replace)
         agent.teleport(world(224, 74, 36), EAST)
     }
 
     //% block="Zet klaar (3)"
     export function setup_3(): void {
+        //fill 239 74 29 244 74 29 air
+        blocks.fill(AIR, world(229, 74, 29), world(225, 74, 29), FillOperation.Replace)
+        blocks.fill(AIR, world(231, 74, 29), world(237, 74, 29), FillOperation.Replace)
+        blocks.fill(AIR, world(239, 74, 29), world(244, 74, 29), FillOperation.Replace)
         agent.teleport(world(224, 74, 29), EAST)
     }
 
     //% block="Zet klaar (extra)"
     export function setup_extra(): void {
+        blocks.fill(AIR, world(234, 71, 9), world(234, 71, -2), FillOperation.Replace)
+        blocks.fill(AIR, world(234, 71, -8), world(234, 71, -4), FillOperation.Replace)
         agent.teleport(world(234, 71, 10), NORTH)
     }
 }
