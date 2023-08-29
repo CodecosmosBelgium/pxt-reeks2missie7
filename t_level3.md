@@ -7,7 +7,7 @@ player.onChat("oef3", function () {
     for (let index = 0; index < 4; index++) {
         agent.move(FORWARD, 1)
         if (!(Codecosmos.is_close_to_fire())) {
-            agent.place(DOWN)
+             Codecosmos.place_tree()
         }
     }
 })
