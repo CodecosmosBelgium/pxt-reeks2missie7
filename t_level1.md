@@ -6,7 +6,7 @@ player.onChat("oef1", function () {
     Codecosmos.setup_1()
     for (let index = 0; index < 4; index++) {
         agent.move(FORWARD, 1)
-        if (Codecosmos.test_for_block_under_agent(GRASS)) {
+        if (Codecosmos.test_for_block_under_agent(GRASS) || Codecosmos.test_for_block_under_agent(DIRT)) {
             agent.place(DOWN)
         }
     }
