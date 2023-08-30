@@ -15,6 +15,12 @@ namespace Codecosmos {
         return blocks.testForBlock(WATER, agent.getPosition().add(pos(0, -1, 1))) || blocks.testForBlock(WATER, agent.getPosition().add(pos(0, -1, -1)))
     }
 
+    //% block="is water naast agent"
+    export function next_to_water_extra(): boolean {
+        return blocks.testForBlock(WATER, agent.getPosition().add(pos(1, -1, 0))) || blocks.testForBlock(WATER, agent.getPosition().add(pos(-1, -1, 0)))
+    }
+
+
     //% block="is dichtbij vuur"
     export function is_close_to_fire() : boolean{
         let isFire: boolean = false
@@ -25,6 +31,19 @@ namespace Codecosmos {
             }
         }
         
+        return isFire;
+    }
+
+    //% block="is dichtbij vuur"
+    export function is_close_to_fire_extra(): boolean {
+        let isFire: boolean = false
+        for (let i: number = -3; i < 3; i++) {
+            if (blocks.testForBlock(FIRE, agent.getPosition().add(world(0, 0, i)))) {
+                isFire = true
+                break;
+            }
+        }
+
         return isFire;
     }
 

@@ -9,10 +9,10 @@ player.onChat("oef3", function () {
         if (Codecosmos.test_for_block_under_agent(GRASS) || Codecosmos.test_for_block_under_agent(MYCELIUM)) {
              Codecosmos.place_tree()
         }
-        if (!(Codecosmos.is_close_to_fire())) {
+        if (!(Codecosmos.is_close_to_fire_extra())) {
             Codecosmos.place_tree()
         }
-        if (Codecosmos.test_for_block_under_agent(MYCELIUM) && Codecosmos.next_to_water()) {
+        if (Codecosmos.test_for_block_under_agent(MYCELIUM) && Codecosmos.next_to_water_extra()) {
              Codecosmos.place_tree()
         }
     }
