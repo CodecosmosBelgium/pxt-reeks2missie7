@@ -14,7 +14,7 @@ player.onChat("oef1", function () {
 ```
 
 ```template
-player.onChat("oef1", function () {
+player.onChat("level1", function () {
 Codecosmos.setup_1()
  for (let index = 0; index < 21; index++) {
       
