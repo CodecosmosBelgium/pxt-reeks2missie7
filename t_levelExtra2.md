@@ -3,7 +3,7 @@
 # Mission extra
 ```blocks
 player.onChat("oef3", function () {
-    Codecosmos.setup_extra()
+    Codecosmos.setup_extra2()
     for (let index = 0; index < 4; index++) {
         agent.move(FORWARD, 1)
         if (Codecosmos.test_for_block_under_agent(GRASS) || Codecosmos.test_for_block_under_agent(MYCELIUM)) {
@@ -20,8 +20,8 @@ player.onChat("oef3", function () {
 ```
 
 ```template
-player.onChat("oefExtra", function () {
-Codecosmos.setup_extra()
+player.onChat("levelExtra2", function () {
+Codecosmos.setup_extra2()
  for (let index = 0; index < 21; index++) {
       
 }
