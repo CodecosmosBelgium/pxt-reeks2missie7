@@ -1,5 +1,5 @@
 player.onChat("oef3", function () {
-    Codecosmos.setup_extra()
+    Codecosmos.setup_extra1()
     for (let index = 0; index < 4; index++) {
         agent.move(FORWARD, 1)
         if (Codecosmos.test_for_block_under_agent(GRASS) && !(Codecosmos.is_close_to_fire())) {

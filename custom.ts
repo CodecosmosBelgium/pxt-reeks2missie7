@@ -77,7 +77,16 @@ namespace Codecosmos {
     }
 
     //% block="Zet klaar"
-    export function setup_extra(): void {
+    //fill 224 71 -8 224 71 -4 air
+    export function setup_extra1(): void {
+        blocks.fill(AIR, world(224, 71, 5), world(224, 71, 9), FillOperation.Replace)
+        blocks.fill(AIR, world(224, 71, 3), world(224, 71, -2), FillOperation.Replace)
+        blocks.fill(AIR, world(224, 71, -8), world(224, 71, -4), FillOperation.Replace)
+        agent.teleport(world(224, 71, 10), NORTH)
+    }
+
+    //% block="Zet klaar"
+    export function setup_extra2(): void {
         blocks.fill(AIR, world(234, 71, 9), world(234, 71, -2), FillOperation.Replace)
         blocks.fill(AIR, world(234, 71, -8), world(234, 71, -4), FillOperation.Replace)
         agent.teleport(world(234, 71, 10), NORTH)
