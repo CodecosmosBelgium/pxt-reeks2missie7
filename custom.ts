@@ -56,6 +56,7 @@ namespace Codecosmos {
     //% block="Zet klaar"
     export function setup_1(): void{
         ///fill 225 74 43 244 74 43 air
+        agent.setItem(JUNGLE_SAPLING, 64, 1)
         agent.teleport(world(224, 74, 43), EAST)
         blocks.fill(AIR, world(225,74,43), world(244, 74, 43), FillOperation.Replace)
     }
@@ -63,6 +64,7 @@ namespace Codecosmos {
     //% block="Zet klaar"
     export function setup_2(): void {
         ///fill 244 74 36 225 74 36 AIR
+        agent.setItem(JUNGLE_SAPLING, 64, 1)
         blocks.fill(AIR, world(244, 74, 36), world(225, 74, 36), FillOperation.Replace)
         agent.teleport(world(224, 74, 36), EAST)
     }
@@ -70,6 +72,7 @@ namespace Codecosmos {
     //% block="Zet klaar"
     export function setup_3(): void {
         //fill 239 74 29 244 74 29 air
+        agent.setItem(JUNGLE_SAPLING, 64, 1)
         blocks.fill(AIR, world(229, 74, 29), world(225, 74, 29), FillOperation.Replace)
         blocks.fill(AIR, world(231, 74, 29), world(237, 74, 29), FillOperation.Replace)
         blocks.fill(AIR, world(239, 74, 29), world(244, 74, 29), FillOperation.Replace)
@@ -77,8 +80,8 @@ namespace Codecosmos {
     }
 
     //% block="Zet klaar"
-    //fill 224 71 -8 224 71 -4 air
     export function setup_extra1(): void {
+        agent.setItem(JUNGLE_SAPLING, 64, 1)
         blocks.fill(AIR, world(224, 71, 5), world(224, 71, 9), FillOperation.Replace)
         blocks.fill(AIR, world(224, 71, 3), world(224, 71, -2), FillOperation.Replace)
         blocks.fill(AIR, world(224, 71, -8), world(224, 71, -4), FillOperation.Replace)
@@ -87,6 +90,7 @@ namespace Codecosmos {
 
     //% block="Zet klaar"
     export function setup_extra2(): void {
+        agent.setItem(JUNGLE_SAPLING, 64, 1)
         blocks.fill(AIR, world(234, 71, 9), world(234, 71, -2), FillOperation.Replace)
         blocks.fill(AIR, world(234, 71, -8), world(234, 71, -4), FillOperation.Replace)
         agent.teleport(world(234, 71, 10), NORTH)
