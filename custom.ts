@@ -10,18 +10,18 @@ namespace Codecosmos {
         return blocks.testForBlock(block, agent.getPosition().add(world(0,-1,0)))
     }
 
-    //% block="is water naast agent"
+    //% block="water naast agent"
     export function next_to_water() : boolean{
         return blocks.testForBlock(WATER, agent.getPosition().add(pos(0, -1, 1))) || blocks.testForBlock(WATER, agent.getPosition().add(pos(0, -1, -1)))
     }
 
-    //% block="is water naast agent"
+    //% block="water naast agent"
     export function next_to_water_extra(): boolean {
         return blocks.testForBlock(WATER, agent.getPosition().add(pos(1, -1, 0))) || blocks.testForBlock(WATER, agent.getPosition().add(pos(-1, -1, 0)))
     }
 
 
-    //% block="is dichtbij vuur"
+    //% block="dichtbij vuur"
     export function is_close_to_fire() : boolean{
         let isFire: boolean = false
         for(let i : number = -3; i < 3; i++){
@@ -34,7 +34,7 @@ namespace Codecosmos {
         return isFire;
     }
 
-    //% block="is dichtbij vuur"
+    //% block="dichtbij vuur"
     export function is_close_to_fire_extra(): boolean {
         let isFire: boolean = false
         for (let i: number = -2; i < 3; i++) {
@@ -76,6 +76,7 @@ namespace Codecosmos {
         blocks.fill(AIR, world(229, 74, 29), world(225, 74, 29), FillOperation.Replace)
         blocks.fill(AIR, world(231, 74, 29), world(237, 74, 29), FillOperation.Replace)
         blocks.fill(AIR, world(239, 74, 29), world(244, 74, 29), FillOperation.Replace)
+        blocks.place(FIRE, world(230, 74, 29));
         agent.teleport(world(224, 74, 29), EAST)
     }
 
@@ -85,6 +86,8 @@ namespace Codecosmos {
         blocks.fill(AIR, world(224, 71, 5), world(224, 71, 9), FillOperation.Replace)
         blocks.fill(AIR, world(224, 71, 3), world(224, 71, -2), FillOperation.Replace)
         blocks.fill(AIR, world(224, 71, -8), world(224, 71, -4), FillOperation.Replace)
+        blocks.place(FIRE, world(224, 71, 4));
+        blocks.place(FIRE, world(224, 71, -3));
         agent.teleport(world(224, 71, 10), NORTH)
     }
 
@@ -93,6 +96,7 @@ namespace Codecosmos {
         agent.setItem(JUNGLE_SAPLING, 64, 1)
         blocks.fill(AIR, world(234, 71, 9), world(234, 71, -2), FillOperation.Replace)
         blocks.fill(AIR, world(234, 71, -8), world(234, 71, -4), FillOperation.Replace)
+        blocks.place(FIRE, world(234, 71, -3));
         agent.teleport(world(234, 71, 10), NORTH)
     }
 }
