@@ -24,7 +24,7 @@ namespace Codecosmos {
     //% block="dichtbij vuur"
     export function is_close_to_fire() : boolean{
         let isFire: boolean = false
-        for(let i : number = -3; i < 3; i++){
+        for(let i : number = -2; i <= 2; i++){
             if(blocks.testForBlock(FIRE, agent.getPosition().add(world(i, 0, 0)))){
                isFire = true
                break; 
@@ -33,6 +33,7 @@ namespace Codecosmos {
         
         return isFire;
     }
+
 
     //% block="dichtbij vuur"
     export function is_close_to_fire_extra(): boolean {
