@@ -22,7 +22,7 @@ player.onChat("oef3", function () {
 ```template
 player.onChat("levelExtra2", function () {
 Codecosmos.setup_extra2()
- for (let index = 0; index < 18; index++) {
+ for (let index = 0; index < 19; index++) {
       
 }
 })
