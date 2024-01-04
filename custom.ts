@@ -68,7 +68,7 @@ namespace Codecosmos {
         ///fill 244 74 36 225 74 36 AIR
         agent.setItem(JUNGLE_SAPLING, 64, 1)
         blocks.fill(AIR, world(244, 74, 36), world(222, 74, 36), FillOperation.Replace)
-        agent.teleport(world(247, 74, 36), EAST)
+        agent.teleport(world(224, 74, 36), EAST)
     }
 
     //% block="Zet klaar"
