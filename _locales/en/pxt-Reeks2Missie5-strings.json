@@ -1,0 +1,15 @@
+{
+  "Codecosmos.test_for_block_under_agent|block": "is %block=block under agent",
+  "Codecosmos.next_to_water|block": "next to water",
+  "Codecosmos.next_to_water_extra|block": "next to water",
+  "Codecosmos.is_close_to_fire|block": "is close to fire",
+  "Codecosmos.is_close_to_fire_extra|block": "is close to fire",
+
+  "Codecosmos.place_tree|block": "place tree",
+  "Codecosmos.setup_1|block": "setup",
+  "Codecosmos.setup_2|block": "setup",
+  "Codecosmos.setup_3|block": "setup",
+
+  "Codecosmos.setup_extra1|block": "setup",
+  "Codecosmos.setup_extra2|block": "setup"
+}
