@@ -60,8 +60,8 @@ namespace Codecosmos {
         agent.place(DOWN);
     }
 
-    //% block="Zet klaar"
-    //% block.loc.nl="setup"
+    //% block="setup"
+    //% block.loc.nl="Zet klaar"
     export function setup_1(): void{
         ///fill 225 74 43 244 74 43 air
         agent.setItem(JUNGLE_SAPLING, 64, 1)
@@ -70,8 +70,8 @@ namespace Codecosmos {
         ///fill 246 74 43 222 74 43 air
     }
 
-    //% block="Zet klaar"
-    //% block.loc.nl="setup"
+    //% block="setup"
+    //% block.loc.nl="Zet klaar"
     export function setup_2(): void {
         ///fill 244 74 36 225 74 36 AIR
         agent.setItem(JUNGLE_SAPLING, 64, 1)
@@ -79,8 +79,8 @@ namespace Codecosmos {
         agent.teleport(world(224, 74, 36), EAST)
     }
 
-    //% block="Zet klaar"
-    //% block.loc.nl="setup"
+    //% block="setup"
+    //% block.loc.nl="Zet klaar"
     export function setup_3(): void {
         //fill 239 74 29 244 74 29 air
         agent.setItem(JUNGLE_SAPLING, 64, 1)
@@ -91,8 +91,8 @@ namespace Codecosmos {
         agent.teleport(world(224, 74, 29), EAST)
     }
 
-    //% block="Zet klaar"
-    //% block.loc.nl="setup"
+    //% block="setup"
+    //% block.loc.nl="Zet klaar"
     export function setup_extra1(): void {
         agent.setItem(JUNGLE_SAPLING, 64, 1)
         blocks.fill(AIR, world(224, 71, 5), world(224, 71, 11), FillOperation.Replace)
@@ -103,8 +103,8 @@ namespace Codecosmos {
         agent.teleport(world(224, 71, 10), NORTH)
     }
 
-    //% block="Zet klaar"
-    //% block.loc.nl="setup"
+    //% block="setup"
+    //% block.loc.nl="Zet klaar"
     export function setup_extra2(): void {
         agent.setItem(JUNGLE_SAPLING, 64, 1)
         blocks.fill(AIR, world(234, 71, 11), world(234, 71, -2), FillOperation.Replace)
