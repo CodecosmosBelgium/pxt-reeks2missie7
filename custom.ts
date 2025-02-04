@@ -11,17 +11,20 @@ namespace Codecosmos {
     }
 
     //% block="water naast agent"
+    //% block.loc.en="water next to agent"
     export function next_to_water() : boolean{
         return blocks.testForBlock(WATER, agent.getPosition().add(pos(0, -1, 1))) || blocks.testForBlock(WATER, agent.getPosition().add(pos(0, -1, -1)))
     }
 
     //% block="water naast agent"
+    //% block.loc.en="water next to agent"
     export function next_to_water_extra(): boolean {
         return blocks.testForBlock(WATER, agent.getPosition().add(pos(1, -1, 0))) || blocks.testForBlock(WATER, agent.getPosition().add(pos(-1, -1, 0)))
     }
 
 
     //% block="dichtbij vuur"
+    //% block.loc.en="close to fire"
     export function is_close_to_fire() : boolean{
         let isFire: boolean = false
         for(let i : number = -2; i <= 2; i++){
