@@ -1,0 +1,15 @@
+{
+  "Codecosmos.test_for_block_under_agent|block": "is %block=block onder de agent",
+  "Codecosmos.next_to_water|block": "is naast water",
+  "Codecosmos.next_to_water_extra|block": "is naast water",
+  "Codecosmos.is_close_to_fire|block": "is dichtbij vuur",
+  "Codecosmos.is_close_to_fire_extra|block": "is dichtbij vuur",
+
+  "Codecosmos.place_tree|block": "plant boom",
+  "Codecosmos.setup_1|block": "zet klaar",
+  "Codecosmos.setup_2|block": "zet klaar",
+  "Codecosmos.setup_3|block": "zet klaar",
+
+  "Codecosmos.setup_extra1|block": "zet klaar",
+  "Codecosmos.setup_extra2|block": "zet klaar"
+}
