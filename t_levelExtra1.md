@@ -16,7 +16,7 @@ player.onChat("levelExtra1", function () {
 ```template
 player.onChat("levelExtra1", function () {
 Codecosmos.setup_extra1()
- for (let index = 0; index < 19; index++) {
+ for (let index = 0; index < 20; index++) {
       
 }
 })
