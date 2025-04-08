@@ -34,6 +34,10 @@ namespace Codecosmos {
         return isFire;
     }
 
+    //% block="testBlock"
+    export function test_block(): void {
+    }
+
 
     //% block="close to fire"
     export function is_close_to_fire_extra(): boolean {

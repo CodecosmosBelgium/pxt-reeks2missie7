@@ -11,5 +11,6 @@
   "Codecosmos.setup_3|block": "setup",
 
   "Codecosmos.setup_extra1|block": "setup",
-  "Codecosmos.setup_extra2|block": "setup"
+  "Codecosmos.setup_extra2|block": "setup",
+  "Codecosmos.test_block|block": "Super test block ENG"
 }
