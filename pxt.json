@@ -17,7 +17,8 @@
         "t_levelExtra1.md",
         "t_levelExtra2.md",
         "t_no_exercise.md",
-        "_locales/nl/pxt-Reeks2Missie5-strings.json"
+        "_locales/nl/pxt-Reeks2Missie5-strings.json",
+        "_locales/en/pxt-Reeks2Missie5-strings.json"
     ],
     "testFiles": [
         "test.ts"
