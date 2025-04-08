@@ -1,5 +1,6 @@
 {
     "name": "pxt-reeks2missie7",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "core": "*",
